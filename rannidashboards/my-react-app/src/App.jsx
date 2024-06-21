@@ -9,9 +9,13 @@ import Student from "./Student"
 
 import UserGreeting from "./UserGreeting"
 
+
+import List from "./List"
+
 function App() {
   return (
       <>
+        <List></List>
         <UserGreeting isLoggedIn={false} username="BroCode"></UserGreeting>
         <Button></Button>
         <Student name="Spongebob" age={30} isStudent={true}></Student>
