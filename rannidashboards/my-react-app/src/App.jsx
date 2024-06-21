@@ -5,12 +5,14 @@ import Food from "./Food"
 import Card from "./Card"
 
 import Button from "./Button"
-
 import Student from "./Student"
+
+import UserGreeting from "./UserGreeting"
 
 function App() {
   return (
       <>
+        <UserGreeting isLoggedIn={false} username="BroCode"></UserGreeting>
         <Button></Button>
         <Student name="Spongebob" age={30} isStudent={true}></Student>
         <Student name="Leila" age={33} isStudent={false}></Student>
