@@ -9,6 +9,8 @@ import Student from "./Student"
 
 import UserGreeting from "./UserGreeting"
 
+import ProfilePicture from "./ProfilePicture"
+
 
 import List from "./List"
 
@@ -28,6 +30,8 @@ function App() {
 
   return (
       <>
+        <ProfilePicture />
+        <Button />
         <List items={fruits} category="Fruits"></List>
         <List items={vegetables} category="Vegetables"></List>
         <UserGreeting isLoggedIn={false} username="BroCode"></UserGreeting>
